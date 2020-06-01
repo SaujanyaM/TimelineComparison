@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 import random
+import datetime
 
 activities_file = "categories.txt"
 time_converter_file = "timeConverter.txt"
@@ -58,16 +59,24 @@ def generate_schedule(minutely_data):
     schedule = {}
     people = []
     names = ["Johnny", "Tom", "Bert"]
+    
     for name in names:
-        person = {"name": name}
-        person_schedule = {}
-        for key, value in minutely_data.items():
-            rand_activity = pick_random_activity(value)
+        for day in range(15,25):
+            current_time = datetime.datetime(2020, 3, day, 4)
 
-            person_schedule[key] = rand_activity
+            person = {"name": name}
+            person_schedule = []
+            for key, value in minutely_data.items():
+                rand_activity = pick_random_activity(value)
+                activity_object = {"starting_time": current_time.timestamp(), 
+                                   "end_time": (current_time+datetime.timedelta(minutes=30)).timestamp(),
+                                   "activity": rand_activity}
 
-        person["schedule"] = person_schedule
-        people.append(person)
+                person_schedule.append(activity_object)
+                current_time += datetime.timedelta(minutes=30)
+
+            person["schedule"] = person_schedule
+            people.append(person)
     schedule["people"] = people
     return schedule
 
