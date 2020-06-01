@@ -56,11 +56,14 @@ def pick_random_activity(probabilities):
 
 def generate_schedule(minutely_data):
     schedule = {}
+    names = ["Johnny", "Tom", "Bert"]
+    for name in names:
+        name_schedule = {}
+        for key, value in minutely_data.items():
+            rand_activity = pick_random_activity(value)
 
-    for key, value in minutely_data.items():
-        rand_activity = pick_random_activity(value)
-
-        schedule[key] = rand_activity
+            name_schedule[key] = rand_activity
+        schedule[name] = name_schedule
 
     return schedule
 
