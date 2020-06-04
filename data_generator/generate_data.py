@@ -61,22 +61,28 @@ def generate_schedule(minutely_data):
     names = ["Johnny", "Tom", "Bert"]
     
     for name in names:
-        for day in range(15,25):
+        person = {"name": name}
+        person_daily_schedule = []
+        for day in range(15,17):
             current_time = datetime.datetime(2020, 3, day, 4)
-
-            person = {"name": name}
-            person_schedule = []
+            daily_schedule = {"day": current_time.strftime("%m/%d/%Y")}
+            day_schedule = []
+            print("day---------------------------")
             for key, value in minutely_data.items():
+                #print(key)
                 rand_activity = pick_random_activity(value)
-                activity_object = {"starting_time": current_time.timestamp(), 
-                                   "end_time": (current_time+datetime.timedelta(minutes=30)).timestamp(),
+                activity_object = {"starting_time": current_time.strftime("%H:%M"), 
+                                   "end_time": (current_time+datetime.timedelta(minutes=10)).strftime("%H:%M"),
                                    "activity": rand_activity}
 
-                person_schedule.append(activity_object)
-                current_time += datetime.timedelta(minutes=30)
+                day_schedule.append(activity_object)
+                current_time += datetime.timedelta(minutes=10)
 
-            person["schedule"] = person_schedule
-            people.append(person)
+            daily_schedule["schedule"] = day_schedule
+            person_daily_schedule.append(daily_schedule)
+
+        person["daily_schedule"] = person_daily_schedule
+        people.append(person)
     schedule["people"] = people
     return schedule
 
@@ -89,6 +95,7 @@ def main():
     #print(time_converter)
 
     minutely_data = parse_minutely_data(activities, time_converter)
+    print(minutely_data.keys())
 
     with open("output.json", "w") as f:
         f.write(json.dumps(minutely_data))
