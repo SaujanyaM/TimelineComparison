@@ -95,14 +95,14 @@ d3.json("schedule.json").then(function(data) {
         .attr("text-anchor", "end")
         .attr("x", width)
         .attr("y", height + 40)
-        .text("Time (year)");
+        .text("Time (hour)");
 
     // Add Y axis label:
     svg.append("text")
         .attr("text-anchor", "end")
         .attr("x", 0)
         .attr("y", -20)
-        .text("# of baby born")
+        .text("frequency of this activity")
         .attr("text-anchor", "start")
 
     // Add Y axis
