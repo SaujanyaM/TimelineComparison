@@ -62,7 +62,7 @@ function millisecs(time) {
     //var minutes = d3.timeFormat("%M");
 
     var Time = parseTime(time);
-
+    //console.log(Time)
     //return (hours(Time) * 60 * 60 * 1000 + minutes(Time) * 60 * 1000);
     return Time;
 }
@@ -109,7 +109,11 @@ d3.json("schedule.json").then(function(data) {
         .zQualitative(true)
         .maxHeight(1000)
         .maxLineHeight(70)
-        .timeFormat('%H:%M');
+        .topMargin(60)
+        //.width(2000)
+        //.bottomMargin(30)
+        .timeFormat('%H:%M')
+        .xTickFormat(d3.timeFormat("%I:%M %p"));
     //console.log(myChart.getTotalNLines());
 
 })
