@@ -57,8 +57,8 @@ var width = 900;
 
 // convert time string to milliseconds
 function millisecs(time) {
-    var parseTime = d3.timeParse("%I:%M");
-    var hours = d3.timeFormat("%I");
+    var parseTime = d3.timeParse("%H:%M");
+    var hours = d3.timeFormat("%H");
     var minutes = d3.timeFormat("%M");
 
     var Time = parseTime(time);
@@ -100,6 +100,8 @@ d3.json("schedule.json").then(function(data) {
     TimelinesChart()
         .data(dataset)
         .zQualitative(true)
+        .maxHeight(1000)
+        .maxLineHeight(70)
         (document.getElementById('myPlot'));
 
 })
