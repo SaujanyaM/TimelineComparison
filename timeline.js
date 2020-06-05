@@ -66,8 +66,8 @@ function millisecs(time) {
     return (hours(Time) * 60 * 60 * 1000 + minutes(Time) * 60 * 1000);
 
 }
-d3.json("data_generator/schedule.json").then(_data => {
-    var data = _data;
+d3.json("schedule.json").then(function(data) {
+    console.log(data)
     var people = data.people;
     //console.log(people[0].name);
     // go through people to get the names
@@ -89,17 +89,17 @@ d3.json("data_generator/schedule.json").then(_data => {
                 var times = { "timeRange": a, "val": s.activity };
                 array.push(times);
             })
+            console.log(day_schedule)
+
             data_label = { "label": d.day, "data": array }; //gets the label
             datas.push(data_label);
         })
         group = { "group": p.name, "data": datas };
         dataset.push(group);
     })
+    TimelinesChart()
+        .data(dataset)
+        .zQualitative(true)
+        (document.getElementById('myPlot'));
 
 })
-console.log(dataset);
-
-TimelinesChart()
-    .data(dataset)
-    //.zQualitative(true)
-    (document.getElementById('myPlot'));
