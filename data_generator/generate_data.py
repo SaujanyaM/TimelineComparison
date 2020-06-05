@@ -52,7 +52,7 @@ def pick_random_activity(probabilities):
         if cur_total >= random_target:
             return key
 
-    return "this_failed"
+    return "Protesting"
 
 
 def generate_schedule(minutely_data):
@@ -86,6 +86,12 @@ def generate_schedule(minutely_data):
     schedule["people"] = people
     return schedule
 
+def add_activities_to_data(data, activities):
+    activities_list = []
+    for k, v in activities.items():
+        activities_list.append(v)
+    activities_list.append("Protesting")
+    data["activities"] = activities_list
 
 def main():
     activities = parse_activities()
@@ -95,12 +101,13 @@ def main():
     #print(time_converter)
 
     minutely_data = parse_minutely_data(activities, time_converter)
-    print(minutely_data.keys())
+    #print(minutely_data.keys())
 
     with open("output.json", "w") as f:
         f.write(json.dumps(minutely_data))
 
     schedule = generate_schedule(minutely_data)
+    add_activities_to_data(schedule, activities)
 
     with open("schedule.json", "w") as f:
         f.write(json.dumps(schedule))

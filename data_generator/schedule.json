@@ -21,7 +21,7 @@
                         {
                             "starting_time": "04:30",
                             "end_time": "04:40",
-                            "activity": "Traveling"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "04:40",
@@ -41,12 +41,12 @@
                         {
                             "starting_time": "05:10",
                             "end_time": "05:20",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "05:20",
                             "end_time": "05:30",
-                            "activity": "Work"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "05:30",
@@ -56,12 +56,12 @@
                         {
                             "starting_time": "05:40",
                             "end_time": "05:50",
-                            "activity": "Personal Care"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "05:50",
                             "end_time": "06:00",
-                            "activity": "Sleeping"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "06:00",
@@ -76,17 +76,17 @@
                         {
                             "starting_time": "06:20",
                             "end_time": "06:30",
-                            "activity": "Sleeping"
+                            "activity": "Couldn't remember"
                         },
                         {
                             "starting_time": "06:30",
                             "end_time": "06:40",
-                            "activity": "Traveling"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "06:40",
                             "end_time": "06:50",
-                            "activity": "Sleeping"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "06:50",
@@ -101,7 +101,7 @@
                         {
                             "starting_time": "07:10",
                             "end_time": "07:20",
-                            "activity": "TV and movies"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "07:20",
@@ -111,17 +111,17 @@
                         {
                             "starting_time": "07:30",
                             "end_time": "07:40",
-                            "activity": "Volunteering"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "07:40",
                             "end_time": "07:50",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "07:50",
                             "end_time": "08:00",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "08:00",
@@ -131,7 +131,7 @@
                         {
                             "starting_time": "08:10",
                             "end_time": "08:20",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "08:20",
@@ -141,22 +141,22 @@
                         {
                             "starting_time": "08:30",
                             "end_time": "08:40",
-                            "activity": "Household activities"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "08:40",
                             "end_time": "08:50",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "08:50",
                             "end_time": "09:00",
-                            "activity": "Other leisure"
+                            "activity": "Volunteering"
                         },
                         {
                             "starting_time": "09:00",
                             "end_time": "09:10",
-                            "activity": "Eating and drinking"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "09:10",
@@ -166,32 +166,32 @@
                         {
                             "starting_time": "09:20",
                             "end_time": "09:30",
-                            "activity": "Education"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "09:30",
                             "end_time": "09:40",
-                            "activity": "Other leisure"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "09:40",
                             "end_time": "09:50",
-                            "activity": "Volunteering"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "09:50",
                             "end_time": "10:00",
-                            "activity": "Eating and drinking"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "10:00",
                             "end_time": "10:10",
-                            "activity": "Work"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "10:10",
                             "end_time": "10:20",
-                            "activity": "Work"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "10:20",
@@ -201,22 +201,22 @@
                         {
                             "starting_time": "10:30",
                             "end_time": "10:40",
-                            "activity": "Work"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "10:40",
                             "end_time": "10:50",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "10:50",
                             "end_time": "11:00",
-                            "activity": "Personal Care"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "11:00",
                             "end_time": "11:10",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "11:10",
@@ -231,7 +231,7 @@
                         {
                             "starting_time": "11:30",
                             "end_time": "11:40",
-                            "activity": "Sleeping"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "11:40",
@@ -256,102 +256,102 @@
                         {
                             "starting_time": "12:20",
                             "end_time": "12:30",
-                            "activity": "Work"
+                            "activity": "Assorted services"
                         },
                         {
                             "starting_time": "12:30",
                             "end_time": "12:40",
-                            "activity": "TV and movies"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "12:40",
                             "end_time": "12:50",
-                            "activity": "Work"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "12:50",
                             "end_time": "13:00",
-                            "activity": "Education"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "13:00",
                             "end_time": "13:10",
-                            "activity": "Work"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "13:10",
                             "end_time": "13:20",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "13:20",
                             "end_time": "13:30",
-                            "activity": "Traveling"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "13:30",
                             "end_time": "13:40",
-                            "activity": "Work"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "13:40",
                             "end_time": "13:50",
-                            "activity": "Other leisure"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "13:50",
                             "end_time": "14:00",
-                            "activity": "Work"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "14:00",
                             "end_time": "14:10",
-                            "activity": "Eating and drinking"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "14:10",
                             "end_time": "14:20",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:20",
                             "end_time": "14:30",
-                            "activity": "Sports"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "14:30",
                             "end_time": "14:40",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:40",
                             "end_time": "14:50",
-                            "activity": "Nonfamily care"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:50",
                             "end_time": "15:00",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "15:00",
                             "end_time": "15:10",
-                            "activity": "Work"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "15:10",
                             "end_time": "15:20",
-                            "activity": "Work"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "15:20",
                             "end_time": "15:30",
-                            "activity": "Family care"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "15:30",
                             "end_time": "15:40",
-                            "activity": "Volunteering"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "15:40",
@@ -361,32 +361,32 @@
                         {
                             "starting_time": "15:50",
                             "end_time": "16:00",
-                            "activity": "Work"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "16:00",
                             "end_time": "16:10",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "16:10",
                             "end_time": "16:20",
-                            "activity": "Eating and drinking"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "16:20",
                             "end_time": "16:30",
-                            "activity": "TV and movies"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "16:30",
                             "end_time": "16:40",
-                            "activity": "Traveling"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "16:40",
                             "end_time": "16:50",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "16:50",
@@ -396,72 +396,72 @@
                         {
                             "starting_time": "17:00",
                             "end_time": "17:10",
-                            "activity": "Religious activities"
+                            "activity": "Education"
                         },
                         {
                             "starting_time": "17:10",
                             "end_time": "17:20",
-                            "activity": "Traveling"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "17:20",
                             "end_time": "17:30",
-                            "activity": "TV and movies"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "17:30",
                             "end_time": "17:40",
-                            "activity": "TV and movies"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "17:40",
                             "end_time": "17:50",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "17:50",
                             "end_time": "18:00",
-                            "activity": "Household activities"
+                            "activity": "Computer use"
                         },
                         {
                             "starting_time": "18:00",
                             "end_time": "18:10",
-                            "activity": "TV and movies"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "18:10",
                             "end_time": "18:20",
-                            "activity": "Traveling"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "18:20",
                             "end_time": "18:30",
-                            "activity": "Household activities"
+                            "activity": "Sports"
                         },
                         {
                             "starting_time": "18:30",
                             "end_time": "18:40",
-                            "activity": "Other leisure"
+                            "activity": "Phone calls"
                         },
                         {
                             "starting_time": "18:40",
                             "end_time": "18:50",
-                            "activity": "Eating and drinking"
+                            "activity": "Computer use"
                         },
                         {
                             "starting_time": "18:50",
                             "end_time": "19:00",
-                            "activity": "Religious activities"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "19:00",
                             "end_time": "19:10",
-                            "activity": "Religious activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "19:10",
                             "end_time": "19:20",
-                            "activity": "Socializing"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "19:20",
@@ -471,82 +471,82 @@
                         {
                             "starting_time": "19:30",
                             "end_time": "19:40",
-                            "activity": "Eating and drinking"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "19:40",
                             "end_time": "19:50",
-                            "activity": "Personal Care"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "19:50",
                             "end_time": "20:00",
-                            "activity": "TV and movies"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "20:00",
                             "end_time": "20:10",
-                            "activity": "Socializing"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "20:10",
                             "end_time": "20:20",
-                            "activity": "Volunteering"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "20:20",
                             "end_time": "20:30",
-                            "activity": "Shopping"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "20:30",
                             "end_time": "20:40",
-                            "activity": "TV and movies"
+                            "activity": "Volunteering"
                         },
                         {
                             "starting_time": "20:40",
                             "end_time": "20:50",
-                            "activity": "Couldn't remember"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "20:50",
                             "end_time": "21:00",
-                            "activity": "Socializing"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "21:00",
                             "end_time": "21:10",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "21:10",
                             "end_time": "21:20",
-                            "activity": "Other leisure"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "21:20",
                             "end_time": "21:30",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "21:30",
                             "end_time": "21:40",
-                            "activity": "Household activities"
+                            "activity": "Relaxing and thinking"
                         },
                         {
                             "starting_time": "21:40",
                             "end_time": "21:50",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "21:50",
                             "end_time": "22:00",
-                            "activity": "Household activities"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "22:00",
                             "end_time": "22:10",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "22:10",
@@ -556,12 +556,12 @@
                         {
                             "starting_time": "22:20",
                             "end_time": "22:30",
-                            "activity": "Sleeping"
+                            "activity": "Phone calls"
                         },
                         {
                             "starting_time": "22:30",
                             "end_time": "22:40",
-                            "activity": "Sleeping"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "22:40",
@@ -576,12 +576,12 @@
                         {
                             "starting_time": "23:00",
                             "end_time": "23:10",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "23:10",
                             "end_time": "23:20",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "23:20",
@@ -601,17 +601,17 @@
                         {
                             "starting_time": "23:50",
                             "end_time": "00:00",
-                            "activity": "TV and movies"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "00:00",
                             "end_time": "00:10",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "00:10",
                             "end_time": "00:20",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "00:20",
@@ -626,7 +626,7 @@
                         {
                             "starting_time": "00:40",
                             "end_time": "00:50",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "00:50",
@@ -696,7 +696,7 @@
                         {
                             "starting_time": "03:00",
                             "end_time": "03:10",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "03:10",
@@ -716,7 +716,7 @@
                         {
                             "starting_time": "03:40",
                             "end_time": "03:50",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "03:50",
@@ -790,7 +790,7 @@
                         {
                             "starting_time": "06:00",
                             "end_time": "06:10",
-                            "activity": "Traveling"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "06:10",
@@ -805,67 +805,67 @@
                         {
                             "starting_time": "06:30",
                             "end_time": "06:40",
-                            "activity": "Sleeping"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "06:40",
                             "end_time": "06:50",
-                            "activity": "Sleeping"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "06:50",
                             "end_time": "07:00",
-                            "activity": "Eating and drinking"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "07:00",
                             "end_time": "07:10",
-                            "activity": "Sleeping"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "07:10",
                             "end_time": "07:20",
-                            "activity": "Sleeping"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "07:20",
                             "end_time": "07:30",
-                            "activity": "Volunteering"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "07:30",
                             "end_time": "07:40",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "07:40",
                             "end_time": "07:50",
-                            "activity": "Sleeping"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "07:50",
                             "end_time": "08:00",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "08:00",
                             "end_time": "08:10",
-                            "activity": "Traveling"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "08:10",
                             "end_time": "08:20",
-                            "activity": "Personal Care"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "08:20",
                             "end_time": "08:30",
-                            "activity": "Eating and drinking"
+                            "activity": "Nonfamily care"
                         },
                         {
                             "starting_time": "08:30",
                             "end_time": "08:40",
-                            "activity": "Household activities"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "08:40",
@@ -875,72 +875,72 @@
                         {
                             "starting_time": "08:50",
                             "end_time": "09:00",
-                            "activity": "Work"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "09:00",
                             "end_time": "09:10",
-                            "activity": "Personal Care"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "09:10",
                             "end_time": "09:20",
-                            "activity": "Work"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "09:20",
                             "end_time": "09:30",
-                            "activity": "Sleeping"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "09:30",
                             "end_time": "09:40",
-                            "activity": "Work"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "09:40",
                             "end_time": "09:50",
-                            "activity": "Other leisure"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "09:50",
                             "end_time": "10:00",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "10:00",
                             "end_time": "10:10",
-                            "activity": "Work"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "10:10",
                             "end_time": "10:20",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "10:20",
                             "end_time": "10:30",
-                            "activity": "Eating and drinking"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "10:30",
                             "end_time": "10:40",
-                            "activity": "Religious activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "10:40",
                             "end_time": "10:50",
-                            "activity": "Household activities"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "10:50",
                             "end_time": "11:00",
-                            "activity": "Shopping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "11:00",
                             "end_time": "11:10",
-                            "activity": "Household activities"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "11:10",
@@ -950,32 +950,32 @@
                         {
                             "starting_time": "11:20",
                             "end_time": "11:30",
-                            "activity": "Sleeping"
+                            "activity": "Sports"
                         },
                         {
                             "starting_time": "11:30",
                             "end_time": "11:40",
-                            "activity": "TV and movies"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "11:40",
                             "end_time": "11:50",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "11:50",
                             "end_time": "12:00",
-                            "activity": "TV and movies"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "12:00",
                             "end_time": "12:10",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "12:10",
                             "end_time": "12:20",
-                            "activity": "Eating and drinking"
+                            "activity": "Assorted services"
                         },
                         {
                             "starting_time": "12:20",
@@ -985,17 +985,17 @@
                         {
                             "starting_time": "12:30",
                             "end_time": "12:40",
-                            "activity": "Work"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "12:40",
                             "end_time": "12:50",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "12:50",
                             "end_time": "13:00",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "13:00",
@@ -1005,62 +1005,62 @@
                         {
                             "starting_time": "13:10",
                             "end_time": "13:20",
-                            "activity": "Personal Care"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "13:20",
                             "end_time": "13:30",
-                            "activity": "TV and movies"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "13:30",
                             "end_time": "13:40",
-                            "activity": "Assorted services"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "13:40",
                             "end_time": "13:50",
-                            "activity": "Household activities"
+                            "activity": "Education"
                         },
                         {
                             "starting_time": "13:50",
                             "end_time": "14:00",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:00",
                             "end_time": "14:10",
-                            "activity": "Eating and drinking"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:10",
                             "end_time": "14:20",
-                            "activity": "Other leisure"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "14:20",
                             "end_time": "14:30",
-                            "activity": "Other leisure"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:30",
                             "end_time": "14:40",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "14:40",
                             "end_time": "14:50",
-                            "activity": "Work"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "14:50",
                             "end_time": "15:00",
-                            "activity": "Volunteering"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "15:00",
                             "end_time": "15:10",
-                            "activity": "Household activities"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "15:10",
@@ -1075,7 +1075,7 @@
                         {
                             "starting_time": "15:30",
                             "end_time": "15:40",
-                            "activity": "Socializing"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "15:40",
@@ -1085,12 +1085,12 @@
                         {
                             "starting_time": "15:50",
                             "end_time": "16:00",
-                            "activity": "TV and movies"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "16:00",
                             "end_time": "16:10",
-                            "activity": "TV and movies"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "16:10",
@@ -1100,157 +1100,157 @@
                         {
                             "starting_time": "16:20",
                             "end_time": "16:30",
-                            "activity": "Education"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "16:30",
                             "end_time": "16:40",
-                            "activity": "Traveling"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "16:40",
                             "end_time": "16:50",
-                            "activity": "TV and movies"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "16:50",
                             "end_time": "17:00",
-                            "activity": "Work"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "17:00",
                             "end_time": "17:10",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "17:10",
                             "end_time": "17:20",
-                            "activity": "Work"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "17:20",
                             "end_time": "17:30",
-                            "activity": "Household activities"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "17:30",
                             "end_time": "17:40",
-                            "activity": "TV and movies"
+                            "activity": "Relaxing and thinking"
                         },
                         {
                             "starting_time": "17:40",
                             "end_time": "17:50",
-                            "activity": "Personal Care"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "17:50",
                             "end_time": "18:00",
-                            "activity": "Eating and drinking"
+                            "activity": "Phone calls"
                         },
                         {
                             "starting_time": "18:00",
                             "end_time": "18:10",
-                            "activity": "Traveling"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "18:10",
                             "end_time": "18:20",
-                            "activity": "Relaxing and thinking"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "18:20",
                             "end_time": "18:30",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "18:30",
                             "end_time": "18:40",
-                            "activity": "Other leisure"
+                            "activity": "Education"
                         },
                         {
                             "starting_time": "18:40",
                             "end_time": "18:50",
-                            "activity": "Sleeping"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "18:50",
                             "end_time": "19:00",
-                            "activity": "TV and movies"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "19:00",
                             "end_time": "19:10",
-                            "activity": "TV and movies"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "19:10",
                             "end_time": "19:20",
-                            "activity": "Eating and drinking"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "19:20",
                             "end_time": "19:30",
-                            "activity": "Sleeping"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "19:30",
                             "end_time": "19:40",
-                            "activity": "Traveling"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "19:40",
                             "end_time": "19:50",
-                            "activity": "Education"
+                            "activity": "Phone calls"
                         },
                         {
                             "starting_time": "19:50",
                             "end_time": "20:00",
-                            "activity": "Personal Care"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "20:00",
                             "end_time": "20:10",
-                            "activity": "Eating and drinking"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "20:10",
                             "end_time": "20:20",
-                            "activity": "Family care"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "20:20",
                             "end_time": "20:30",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "20:30",
                             "end_time": "20:40",
-                            "activity": "Sleeping"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "20:40",
                             "end_time": "20:50",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "20:50",
                             "end_time": "21:00",
-                            "activity": "Traveling"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "21:00",
                             "end_time": "21:10",
-                            "activity": "Personal Care"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "21:10",
                             "end_time": "21:20",
-                            "activity": "TV and movies"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "21:20",
                             "end_time": "21:30",
-                            "activity": "TV and movies"
+                            "activity": "Sports"
                         },
                         {
                             "starting_time": "21:30",
@@ -1260,12 +1260,12 @@
                         {
                             "starting_time": "21:40",
                             "end_time": "21:50",
-                            "activity": "TV and movies"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "21:50",
                             "end_time": "22:00",
-                            "activity": "Sleeping"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "22:00",
@@ -1275,12 +1275,12 @@
                         {
                             "starting_time": "22:10",
                             "end_time": "22:20",
-                            "activity": "Other leisure"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "22:20",
                             "end_time": "22:30",
-                            "activity": "Sleeping"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "22:30",
@@ -1290,12 +1290,12 @@
                         {
                             "starting_time": "22:40",
                             "end_time": "22:50",
-                            "activity": "Shopping"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "22:50",
                             "end_time": "23:00",
-                            "activity": "Sleeping"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "23:00",
@@ -1310,17 +1310,17 @@
                         {
                             "starting_time": "23:20",
                             "end_time": "23:30",
-                            "activity": "Family care"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "23:30",
                             "end_time": "23:40",
-                            "activity": "Sleeping"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "23:40",
                             "end_time": "23:50",
-                            "activity": "Other leisure"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "23:50",
@@ -1335,7 +1335,7 @@
                         {
                             "starting_time": "00:10",
                             "end_time": "00:20",
-                            "activity": "Other leisure"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "00:20",
@@ -1370,7 +1370,7 @@
                         {
                             "starting_time": "01:20",
                             "end_time": "01:30",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "01:30",
@@ -1493,7 +1493,7 @@
                         {
                             "starting_time": "05:10",
                             "end_time": "05:20",
-                            "activity": "Traveling"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "05:20",
@@ -1508,17 +1508,17 @@
                         {
                             "starting_time": "05:40",
                             "end_time": "05:50",
-                            "activity": "Sleeping"
+                            "activity": "Religious activities"
                         },
                         {
                             "starting_time": "05:50",
                             "end_time": "06:00",
-                            "activity": "Sleeping"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "06:00",
                             "end_time": "06:10",
-                            "activity": "Personal Care"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "06:10",
@@ -1528,27 +1528,27 @@
                         {
                             "starting_time": "06:20",
                             "end_time": "06:30",
-                            "activity": "Traveling"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "06:30",
                             "end_time": "06:40",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "06:40",
                             "end_time": "06:50",
-                            "activity": "Work"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "06:50",
                             "end_time": "07:00",
-                            "activity": "Personal Care"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "07:00",
                             "end_time": "07:10",
-                            "activity": "Work"
+                            "activity": "Relaxing and thinking"
                         },
                         {
                             "starting_time": "07:10",
@@ -1563,22 +1563,22 @@
                         {
                             "starting_time": "07:30",
                             "end_time": "07:40",
-                            "activity": "Personal Care"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "07:40",
                             "end_time": "07:50",
-                            "activity": "Other leisure"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "07:50",
                             "end_time": "08:00",
-                            "activity": "Household activities"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "08:00",
                             "end_time": "08:10",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "08:10",
@@ -1588,22 +1588,22 @@
                         {
                             "starting_time": "08:20",
                             "end_time": "08:30",
-                            "activity": "Socializing"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "08:30",
                             "end_time": "08:40",
-                            "activity": "Work"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "08:40",
                             "end_time": "08:50",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "08:50",
                             "end_time": "09:00",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "09:00",
@@ -1633,27 +1633,27 @@
                         {
                             "starting_time": "09:50",
                             "end_time": "10:00",
-                            "activity": "Work"
+                            "activity": "Sports"
                         },
                         {
                             "starting_time": "10:00",
                             "end_time": "10:10",
-                            "activity": "Work"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "10:10",
                             "end_time": "10:20",
-                            "activity": "Socializing"
+                            "activity": "Education"
                         },
                         {
                             "starting_time": "10:20",
                             "end_time": "10:30",
-                            "activity": "Job search"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "10:30",
                             "end_time": "10:40",
-                            "activity": "Personal Care"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "10:40",
@@ -1663,17 +1663,17 @@
                         {
                             "starting_time": "10:50",
                             "end_time": "11:00",
-                            "activity": "Sports"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "11:00",
                             "end_time": "11:10",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "11:10",
                             "end_time": "11:20",
-                            "activity": "Traveling"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "11:20",
@@ -1683,52 +1683,52 @@
                         {
                             "starting_time": "11:30",
                             "end_time": "11:40",
-                            "activity": "Traveling"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "11:40",
                             "end_time": "11:50",
-                            "activity": "Sleeping"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "11:50",
                             "end_time": "12:00",
-                            "activity": "Socializing"
+                            "activity": "Religious activities"
                         },
                         {
                             "starting_time": "12:00",
                             "end_time": "12:10",
-                            "activity": "Eating and drinking"
+                            "activity": "Phone calls"
                         },
                         {
                             "starting_time": "12:10",
                             "end_time": "12:20",
-                            "activity": "Work"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "12:20",
                             "end_time": "12:30",
-                            "activity": "Traveling"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "12:30",
                             "end_time": "12:40",
-                            "activity": "Traveling"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "12:40",
                             "end_time": "12:50",
-                            "activity": "TV and movies"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "12:50",
                             "end_time": "13:00",
-                            "activity": "Eating and drinking"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "13:00",
                             "end_time": "13:10",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "13:10",
@@ -1738,17 +1738,17 @@
                         {
                             "starting_time": "13:20",
                             "end_time": "13:30",
-                            "activity": "Other leisure"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "13:30",
                             "end_time": "13:40",
-                            "activity": "Work"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "13:40",
                             "end_time": "13:50",
-                            "activity": "Work"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "13:50",
@@ -1763,27 +1763,27 @@
                         {
                             "starting_time": "14:10",
                             "end_time": "14:20",
-                            "activity": "Volunteering"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:20",
                             "end_time": "14:30",
-                            "activity": "TV and movies"
+                            "activity": "Job search"
                         },
                         {
                             "starting_time": "14:30",
                             "end_time": "14:40",
-                            "activity": "TV and movies"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "14:40",
                             "end_time": "14:50",
-                            "activity": "Socializing"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "14:50",
                             "end_time": "15:00",
-                            "activity": "Work"
+                            "activity": "Volunteering"
                         },
                         {
                             "starting_time": "15:00",
@@ -1793,182 +1793,182 @@
                         {
                             "starting_time": "15:10",
                             "end_time": "15:20",
-                            "activity": "Work"
+                            "activity": "Assorted services"
                         },
                         {
                             "starting_time": "15:20",
                             "end_time": "15:30",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "15:30",
                             "end_time": "15:40",
-                            "activity": "Personal Care"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "15:40",
                             "end_time": "15:50",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "15:50",
                             "end_time": "16:00",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "16:00",
                             "end_time": "16:10",
-                            "activity": "TV and movies"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "16:10",
                             "end_time": "16:20",
-                            "activity": "Work"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "16:20",
                             "end_time": "16:30",
-                            "activity": "Work"
+                            "activity": "Nonfamily care"
                         },
                         {
                             "starting_time": "16:30",
                             "end_time": "16:40",
-                            "activity": "Nonfamily care"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "16:40",
                             "end_time": "16:50",
-                            "activity": "TV and movies"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "16:50",
                             "end_time": "17:00",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "17:00",
                             "end_time": "17:10",
-                            "activity": "Work"
+                            "activity": "Computer use"
                         },
                         {
                             "starting_time": "17:10",
                             "end_time": "17:20",
-                            "activity": "Sleeping"
+                            "activity": "Sports"
                         },
                         {
                             "starting_time": "17:20",
                             "end_time": "17:30",
-                            "activity": "Work"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "17:30",
                             "end_time": "17:40",
-                            "activity": "Household activities"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "17:40",
                             "end_time": "17:50",
-                            "activity": "Work"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "17:50",
                             "end_time": "18:00",
-                            "activity": "Eating and drinking"
+                            "activity": "Education"
                         },
                         {
                             "starting_time": "18:00",
                             "end_time": "18:10",
-                            "activity": "Eating and drinking"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "18:10",
                             "end_time": "18:20",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "18:20",
                             "end_time": "18:30",
-                            "activity": "Traveling"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "18:30",
                             "end_time": "18:40",
-                            "activity": "Education"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "18:40",
                             "end_time": "18:50",
-                            "activity": "Work"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "18:50",
                             "end_time": "19:00",
-                            "activity": "TV and movies"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "19:00",
                             "end_time": "19:10",
-                            "activity": "Sleeping"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "19:10",
                             "end_time": "19:20",
-                            "activity": "Traveling"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "19:20",
                             "end_time": "19:30",
-                            "activity": "Family care"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "19:30",
                             "end_time": "19:40",
-                            "activity": "Traveling"
+                            "activity": "Computer use"
                         },
                         {
                             "starting_time": "19:40",
                             "end_time": "19:50",
-                            "activity": "Socializing"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "19:50",
                             "end_time": "20:00",
-                            "activity": "Socializing"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "20:00",
                             "end_time": "20:10",
-                            "activity": "Family care"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "20:10",
                             "end_time": "20:20",
-                            "activity": "TV and movies"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "20:20",
                             "end_time": "20:30",
-                            "activity": "Phone calls"
+                            "activity": "Computer use"
                         },
                         {
                             "starting_time": "20:30",
                             "end_time": "20:40",
-                            "activity": "Relaxing and thinking"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "20:40",
                             "end_time": "20:50",
-                            "activity": "Family care"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "20:50",
                             "end_time": "21:00",
-                            "activity": "TV and movies"
+                            "activity": "Assorted services"
                         },
                         {
                             "starting_time": "21:00",
                             "end_time": "21:10",
-                            "activity": "Household activities"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "21:10",
@@ -1983,17 +1983,17 @@
                         {
                             "starting_time": "21:30",
                             "end_time": "21:40",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "21:40",
                             "end_time": "21:50",
-                            "activity": "Sleeping"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "21:50",
                             "end_time": "22:00",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "22:00",
@@ -2008,17 +2008,17 @@
                         {
                             "starting_time": "22:20",
                             "end_time": "22:30",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "22:30",
                             "end_time": "22:40",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "22:40",
                             "end_time": "22:50",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "22:50",
@@ -2028,7 +2028,7 @@
                         {
                             "starting_time": "23:00",
                             "end_time": "23:10",
-                            "activity": "Traveling"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "23:10",
@@ -2038,7 +2038,7 @@
                         {
                             "starting_time": "23:20",
                             "end_time": "23:30",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "23:30",
@@ -2048,7 +2048,7 @@
                         {
                             "starting_time": "23:40",
                             "end_time": "23:50",
-                            "activity": "Socializing"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "23:50",
@@ -2058,7 +2058,7 @@
                         {
                             "starting_time": "00:00",
                             "end_time": "00:10",
-                            "activity": "Sleeping"
+                            "activity": "Relaxing and thinking"
                         },
                         {
                             "starting_time": "00:10",
@@ -2088,7 +2088,7 @@
                         {
                             "starting_time": "01:00",
                             "end_time": "01:10",
-                            "activity": "Other leisure"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "01:10",
@@ -2113,7 +2113,7 @@
                         {
                             "starting_time": "01:50",
                             "end_time": "02:00",
-                            "activity": "Traveling"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "02:00",
@@ -2153,7 +2153,7 @@
                         {
                             "starting_time": "03:10",
                             "end_time": "03:20",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "03:20",
@@ -2173,7 +2173,7 @@
                         {
                             "starting_time": "03:50",
                             "end_time": "04:00",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         }
                     ]
                 },
@@ -2222,7 +2222,7 @@
                         {
                             "starting_time": "05:20",
                             "end_time": "05:30",
-                            "activity": "Personal Care"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "05:30",
@@ -2232,7 +2232,7 @@
                         {
                             "starting_time": "05:40",
                             "end_time": "05:50",
-                            "activity": "Sleeping"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "05:50",
@@ -2242,27 +2242,27 @@
                         {
                             "starting_time": "06:00",
                             "end_time": "06:10",
-                            "activity": "Sleeping"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "06:10",
                             "end_time": "06:20",
-                            "activity": "Couldn't remember"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "06:20",
                             "end_time": "06:30",
-                            "activity": "Personal Care"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "06:30",
                             "end_time": "06:40",
-                            "activity": "Sleeping"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "06:40",
                             "end_time": "06:50",
-                            "activity": "Sleeping"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "06:50",
@@ -2272,42 +2272,42 @@
                         {
                             "starting_time": "07:00",
                             "end_time": "07:10",
-                            "activity": "Household activities"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "07:10",
                             "end_time": "07:20",
-                            "activity": "Personal Care"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "07:20",
                             "end_time": "07:30",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "07:30",
                             "end_time": "07:40",
-                            "activity": "Eating and drinking"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "07:40",
                             "end_time": "07:50",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "07:50",
                             "end_time": "08:00",
-                            "activity": "Personal Care"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "08:00",
                             "end_time": "08:10",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "08:10",
                             "end_time": "08:20",
-                            "activity": "Sleeping"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "08:20",
@@ -2317,42 +2317,42 @@
                         {
                             "starting_time": "08:30",
                             "end_time": "08:40",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "08:40",
                             "end_time": "08:50",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "08:50",
                             "end_time": "09:00",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "09:00",
                             "end_time": "09:10",
-                            "activity": "Sleeping"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "09:10",
                             "end_time": "09:20",
-                            "activity": "Personal Care"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "09:20",
                             "end_time": "09:30",
-                            "activity": "Traveling"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "09:30",
                             "end_time": "09:40",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "09:40",
                             "end_time": "09:50",
-                            "activity": "Other leisure"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "09:50",
@@ -2362,32 +2362,32 @@
                         {
                             "starting_time": "10:00",
                             "end_time": "10:10",
-                            "activity": "Sleeping"
+                            "activity": "Religious activities"
                         },
                         {
                             "starting_time": "10:10",
                             "end_time": "10:20",
-                            "activity": "Traveling"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "10:20",
                             "end_time": "10:30",
-                            "activity": "Sleeping"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "10:30",
                             "end_time": "10:40",
-                            "activity": "Household activities"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "10:40",
                             "end_time": "10:50",
-                            "activity": "Other leisure"
+                            "activity": "Nonfamily care"
                         },
                         {
                             "starting_time": "10:50",
                             "end_time": "11:00",
-                            "activity": "Eating and drinking"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "11:00",
@@ -2397,27 +2397,27 @@
                         {
                             "starting_time": "11:10",
                             "end_time": "11:20",
-                            "activity": "TV and movies"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "11:20",
                             "end_time": "11:30",
-                            "activity": "Shopping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "11:30",
                             "end_time": "11:40",
-                            "activity": "Computer use"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "11:40",
                             "end_time": "11:50",
-                            "activity": "Work"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "11:50",
                             "end_time": "12:00",
-                            "activity": "Work"
+                            "activity": "Couldn't remember"
                         },
                         {
                             "starting_time": "12:00",
@@ -2427,12 +2427,12 @@
                         {
                             "starting_time": "12:10",
                             "end_time": "12:20",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "12:20",
                             "end_time": "12:30",
-                            "activity": "Eating and drinking"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "12:30",
@@ -2442,17 +2442,17 @@
                         {
                             "starting_time": "12:40",
                             "end_time": "12:50",
-                            "activity": "Eating and drinking"
+                            "activity": "Protesting"
                         },
                         {
                             "starting_time": "12:50",
                             "end_time": "13:00",
-                            "activity": "Work"
+                            "activity": "Education"
                         },
                         {
                             "starting_time": "13:00",
                             "end_time": "13:10",
-                            "activity": "Traveling"
+                            "activity": "Assorted services"
                         },
                         {
                             "starting_time": "13:10",
@@ -2462,17 +2462,17 @@
                         {
                             "starting_time": "13:20",
                             "end_time": "13:30",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "13:30",
                             "end_time": "13:40",
-                            "activity": "Work"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "13:40",
                             "end_time": "13:50",
-                            "activity": "Work"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "13:50",
@@ -2482,12 +2482,12 @@
                         {
                             "starting_time": "14:00",
                             "end_time": "14:10",
-                            "activity": "TV and movies"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:10",
                             "end_time": "14:20",
-                            "activity": "Socializing"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:20",
@@ -2497,62 +2497,62 @@
                         {
                             "starting_time": "14:30",
                             "end_time": "14:40",
-                            "activity": "Work"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "14:40",
                             "end_time": "14:50",
-                            "activity": "Assorted services"
+                            "activity": "Relaxing and thinking"
                         },
                         {
                             "starting_time": "14:50",
                             "end_time": "15:00",
-                            "activity": "Traveling"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "15:00",
                             "end_time": "15:10",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "15:10",
                             "end_time": "15:20",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "15:20",
                             "end_time": "15:30",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "15:30",
                             "end_time": "15:40",
-                            "activity": "Work"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "15:40",
                             "end_time": "15:50",
-                            "activity": "Sleeping"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "15:50",
                             "end_time": "16:00",
-                            "activity": "Family care"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "16:00",
                             "end_time": "16:10",
-                            "activity": "Religious activities"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "16:10",
                             "end_time": "16:20",
-                            "activity": "Socializing"
+                            "activity": "Sports"
                         },
                         {
                             "starting_time": "16:20",
                             "end_time": "16:30",
-                            "activity": "Household activities"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "16:30",
@@ -2562,32 +2562,32 @@
                         {
                             "starting_time": "16:40",
                             "end_time": "16:50",
-                            "activity": "Work"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "16:50",
                             "end_time": "17:00",
-                            "activity": "Sports"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "17:00",
                             "end_time": "17:10",
-                            "activity": "Traveling"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "17:10",
                             "end_time": "17:20",
-                            "activity": "Traveling"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "17:20",
                             "end_time": "17:30",
-                            "activity": "TV and movies"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "17:30",
                             "end_time": "17:40",
-                            "activity": "Personal Care"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "17:40",
@@ -2597,37 +2597,37 @@
                         {
                             "starting_time": "17:50",
                             "end_time": "18:00",
-                            "activity": "Traveling"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "18:00",
                             "end_time": "18:10",
-                            "activity": "Traveling"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "18:10",
                             "end_time": "18:20",
-                            "activity": "Household activities"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "18:20",
                             "end_time": "18:30",
-                            "activity": "Relaxing and thinking"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "18:30",
                             "end_time": "18:40",
-                            "activity": "Work"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "18:40",
                             "end_time": "18:50",
-                            "activity": "TV and movies"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "18:50",
                             "end_time": "19:00",
-                            "activity": "Relaxing and thinking"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "19:00",
@@ -2637,27 +2637,27 @@
                         {
                             "starting_time": "19:10",
                             "end_time": "19:20",
-                            "activity": "TV and movies"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "19:20",
                             "end_time": "19:30",
-                            "activity": "Personal Care"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "19:30",
                             "end_time": "19:40",
-                            "activity": "Volunteering"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "19:40",
                             "end_time": "19:50",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "19:50",
                             "end_time": "20:00",
-                            "activity": "TV and movies"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "20:00",
@@ -2667,47 +2667,47 @@
                         {
                             "starting_time": "20:10",
                             "end_time": "20:20",
-                            "activity": "TV and movies"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "20:20",
                             "end_time": "20:30",
-                            "activity": "Personal Care"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "20:30",
                             "end_time": "20:40",
-                            "activity": "Phone calls"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "20:40",
                             "end_time": "20:50",
-                            "activity": "Sports"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "20:50",
                             "end_time": "21:00",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "21:00",
                             "end_time": "21:10",
-                            "activity": "Sleeping"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "21:10",
                             "end_time": "21:20",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "21:20",
                             "end_time": "21:30",
-                            "activity": "TV and movies"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "21:30",
                             "end_time": "21:40",
-                            "activity": "TV and movies"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "21:40",
@@ -2717,17 +2717,17 @@
                         {
                             "starting_time": "21:50",
                             "end_time": "22:00",
-                            "activity": "Socializing"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "22:00",
                             "end_time": "22:10",
-                            "activity": "Other leisure"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "22:10",
                             "end_time": "22:20",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "22:20",
@@ -2737,7 +2737,7 @@
                         {
                             "starting_time": "22:30",
                             "end_time": "22:40",
-                            "activity": "Family care"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "22:40",
@@ -2747,12 +2747,12 @@
                         {
                             "starting_time": "22:50",
                             "end_time": "23:00",
-                            "activity": "Sleeping"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "23:00",
                             "end_time": "23:10",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "23:10",
@@ -2762,7 +2762,7 @@
                         {
                             "starting_time": "23:20",
                             "end_time": "23:30",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "23:30",
@@ -2772,12 +2772,12 @@
                         {
                             "starting_time": "23:40",
                             "end_time": "23:50",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "23:50",
                             "end_time": "00:00",
-                            "activity": "Sleeping"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "00:00",
@@ -2867,7 +2867,7 @@
                         {
                             "starting_time": "02:50",
                             "end_time": "03:00",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "03:00",
@@ -2882,12 +2882,12 @@
                         {
                             "starting_time": "03:20",
                             "end_time": "03:30",
-                            "activity": "Other leisure"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "03:30",
                             "end_time": "03:40",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "03:40",
@@ -2955,7 +2955,7 @@
                         {
                             "starting_time": "05:30",
                             "end_time": "05:40",
-                            "activity": "Sleeping"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "05:40",
@@ -2965,27 +2965,27 @@
                         {
                             "starting_time": "05:50",
                             "end_time": "06:00",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "06:00",
                             "end_time": "06:10",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "06:10",
                             "end_time": "06:20",
-                            "activity": "Personal Care"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "06:20",
                             "end_time": "06:30",
-                            "activity": "Personal Care"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "06:30",
                             "end_time": "06:40",
-                            "activity": "Religious activities"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "06:40",
@@ -2995,7 +2995,7 @@
                         {
                             "starting_time": "06:50",
                             "end_time": "07:00",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "07:00",
@@ -3005,82 +3005,82 @@
                         {
                             "starting_time": "07:10",
                             "end_time": "07:20",
-                            "activity": "Sleeping"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "07:20",
                             "end_time": "07:30",
-                            "activity": "Relaxing and thinking"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "07:30",
                             "end_time": "07:40",
-                            "activity": "Traveling"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "07:40",
                             "end_time": "07:50",
-                            "activity": "Traveling"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "07:50",
                             "end_time": "08:00",
-                            "activity": "Work"
+                            "activity": "Education"
                         },
                         {
                             "starting_time": "08:00",
                             "end_time": "08:10",
-                            "activity": "Sleeping"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "08:10",
                             "end_time": "08:20",
-                            "activity": "Personal Care"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "08:20",
                             "end_time": "08:30",
-                            "activity": "Religious activities"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "08:30",
                             "end_time": "08:40",
-                            "activity": "Sleeping"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "08:40",
                             "end_time": "08:50",
-                            "activity": "Other leisure"
+                            "activity": "Assorted services"
                         },
                         {
                             "starting_time": "08:50",
                             "end_time": "09:00",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "09:00",
                             "end_time": "09:10",
-                            "activity": "Assorted services"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "09:10",
                             "end_time": "09:20",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "09:20",
                             "end_time": "09:30",
-                            "activity": "Other leisure"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "09:30",
                             "end_time": "09:40",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "09:40",
                             "end_time": "09:50",
-                            "activity": "Work"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "09:50",
@@ -3090,12 +3090,12 @@
                         {
                             "starting_time": "10:00",
                             "end_time": "10:10",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "10:10",
                             "end_time": "10:20",
-                            "activity": "Work"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "10:20",
@@ -3105,12 +3105,12 @@
                         {
                             "starting_time": "10:30",
                             "end_time": "10:40",
-                            "activity": "Religious activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "10:40",
                             "end_time": "10:50",
-                            "activity": "Family care"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "10:50",
@@ -3120,22 +3120,22 @@
                         {
                             "starting_time": "11:00",
                             "end_time": "11:10",
-                            "activity": "Work"
+                            "activity": "Sports"
                         },
                         {
                             "starting_time": "11:10",
                             "end_time": "11:20",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "11:20",
                             "end_time": "11:30",
-                            "activity": "Relaxing and thinking"
+                            "activity": "Education"
                         },
                         {
                             "starting_time": "11:30",
                             "end_time": "11:40",
-                            "activity": "Sports"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "11:40",
@@ -3145,7 +3145,7 @@
                         {
                             "starting_time": "11:50",
                             "end_time": "12:00",
-                            "activity": "Religious activities"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "12:00",
@@ -3155,57 +3155,57 @@
                         {
                             "starting_time": "12:10",
                             "end_time": "12:20",
-                            "activity": "Personal Care"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "12:20",
                             "end_time": "12:30",
-                            "activity": "Personal Care"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "12:30",
                             "end_time": "12:40",
-                            "activity": "Traveling"
+                            "activity": "Education"
                         },
                         {
                             "starting_time": "12:40",
                             "end_time": "12:50",
-                            "activity": "Work"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "12:50",
                             "end_time": "13:00",
-                            "activity": "Sports"
+                            "activity": "Volunteering"
                         },
                         {
                             "starting_time": "13:00",
                             "end_time": "13:10",
-                            "activity": "Traveling"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "13:10",
                             "end_time": "13:20",
-                            "activity": "Eating and drinking"
+                            "activity": "Sports"
                         },
                         {
                             "starting_time": "13:20",
                             "end_time": "13:30",
-                            "activity": "Sleeping"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "13:30",
                             "end_time": "13:40",
-                            "activity": "Traveling"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "13:40",
                             "end_time": "13:50",
-                            "activity": "TV and movies"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "13:50",
                             "end_time": "14:00",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:00",
@@ -3220,32 +3220,32 @@
                         {
                             "starting_time": "14:20",
                             "end_time": "14:30",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:30",
                             "end_time": "14:40",
-                            "activity": "Traveling"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "14:40",
                             "end_time": "14:50",
-                            "activity": "Assorted services"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:50",
                             "end_time": "15:00",
-                            "activity": "Relaxing and thinking"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "15:00",
                             "end_time": "15:10",
-                            "activity": "Traveling"
+                            "activity": "Relaxing and thinking"
                         },
                         {
                             "starting_time": "15:10",
                             "end_time": "15:20",
-                            "activity": "Household activities"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "15:20",
@@ -3255,7 +3255,7 @@
                         {
                             "starting_time": "15:30",
                             "end_time": "15:40",
-                            "activity": "Work"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "15:40",
@@ -3265,17 +3265,17 @@
                         {
                             "starting_time": "15:50",
                             "end_time": "16:00",
-                            "activity": "Personal Care"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "16:00",
                             "end_time": "16:10",
-                            "activity": "Work"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "16:10",
                             "end_time": "16:20",
-                            "activity": "Other leisure"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "16:20",
@@ -3285,52 +3285,52 @@
                         {
                             "starting_time": "16:30",
                             "end_time": "16:40",
-                            "activity": "Volunteering"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "16:40",
                             "end_time": "16:50",
-                            "activity": "Work"
+                            "activity": "Couldn't remember"
                         },
                         {
                             "starting_time": "16:50",
                             "end_time": "17:00",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "17:00",
                             "end_time": "17:10",
-                            "activity": "TV and movies"
+                            "activity": "Computer use"
                         },
                         {
                             "starting_time": "17:10",
                             "end_time": "17:20",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "17:20",
                             "end_time": "17:30",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "17:30",
                             "end_time": "17:40",
-                            "activity": "Work"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "17:40",
                             "end_time": "17:50",
-                            "activity": "Household activities"
+                            "activity": "Phone calls"
                         },
                         {
                             "starting_time": "17:50",
                             "end_time": "18:00",
-                            "activity": "Other leisure"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "18:00",
                             "end_time": "18:10",
-                            "activity": "Other leisure"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "18:10",
@@ -3340,7 +3340,7 @@
                         {
                             "starting_time": "18:20",
                             "end_time": "18:30",
-                            "activity": "TV and movies"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "18:30",
@@ -3350,37 +3350,37 @@
                         {
                             "starting_time": "18:40",
                             "end_time": "18:50",
-                            "activity": "Sleeping"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "18:50",
                             "end_time": "19:00",
-                            "activity": "Traveling"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "19:00",
                             "end_time": "19:10",
-                            "activity": "Household activities"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "19:10",
                             "end_time": "19:20",
-                            "activity": "Work"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "19:20",
                             "end_time": "19:30",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "19:30",
                             "end_time": "19:40",
-                            "activity": "TV and movies"
+                            "activity": "Education"
                         },
                         {
                             "starting_time": "19:40",
                             "end_time": "19:50",
-                            "activity": "TV and movies"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "19:50",
@@ -3390,27 +3390,27 @@
                         {
                             "starting_time": "20:00",
                             "end_time": "20:10",
-                            "activity": "TV and movies"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "20:10",
                             "end_time": "20:20",
-                            "activity": "Traveling"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "20:20",
                             "end_time": "20:30",
-                            "activity": "TV and movies"
+                            "activity": "Education"
                         },
                         {
                             "starting_time": "20:30",
                             "end_time": "20:40",
-                            "activity": "Computer use"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "20:40",
                             "end_time": "20:50",
-                            "activity": "this_failed"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "20:50",
@@ -3420,7 +3420,7 @@
                         {
                             "starting_time": "21:00",
                             "end_time": "21:10",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "21:10",
@@ -3430,47 +3430,47 @@
                         {
                             "starting_time": "21:20",
                             "end_time": "21:30",
-                            "activity": "Other leisure"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "21:30",
                             "end_time": "21:40",
-                            "activity": "Other leisure"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "21:40",
                             "end_time": "21:50",
-                            "activity": "TV and movies"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "21:50",
                             "end_time": "22:00",
-                            "activity": "TV and movies"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "22:00",
                             "end_time": "22:10",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "22:10",
                             "end_time": "22:20",
-                            "activity": "Other leisure"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "22:20",
                             "end_time": "22:30",
-                            "activity": "Phone calls"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "22:30",
                             "end_time": "22:40",
-                            "activity": "Traveling"
+                            "activity": "Relaxing and thinking"
                         },
                         {
                             "starting_time": "22:40",
                             "end_time": "22:50",
-                            "activity": "TV and movies"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "22:50",
@@ -3485,17 +3485,17 @@
                         {
                             "starting_time": "23:10",
                             "end_time": "23:20",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "23:20",
                             "end_time": "23:30",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "23:30",
                             "end_time": "23:40",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "23:40",
@@ -3505,7 +3505,7 @@
                         {
                             "starting_time": "23:50",
                             "end_time": "00:00",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "00:00",
@@ -3525,7 +3525,7 @@
                         {
                             "starting_time": "00:30",
                             "end_time": "00:40",
-                            "activity": "Personal Care"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "00:40",
@@ -3540,7 +3540,7 @@
                         {
                             "starting_time": "01:00",
                             "end_time": "01:10",
-                            "activity": "Other leisure"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "01:10",
@@ -3585,7 +3585,7 @@
                         {
                             "starting_time": "02:30",
                             "end_time": "02:40",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "02:40",
@@ -3634,7 +3634,7 @@
                     "schedule": [{
                             "starting_time": "04:00",
                             "end_time": "04:10",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "04:10",
@@ -3649,7 +3649,7 @@
                         {
                             "starting_time": "04:30",
                             "end_time": "04:40",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "04:40",
@@ -3684,17 +3684,17 @@
                         {
                             "starting_time": "05:40",
                             "end_time": "05:50",
-                            "activity": "Sleeping"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "05:50",
                             "end_time": "06:00",
-                            "activity": "Sleeping"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "06:00",
                             "end_time": "06:10",
-                            "activity": "Personal Care"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "06:10",
@@ -3704,7 +3704,7 @@
                         {
                             "starting_time": "06:20",
                             "end_time": "06:30",
-                            "activity": "Family care"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "06:30",
@@ -3714,22 +3714,22 @@
                         {
                             "starting_time": "06:40",
                             "end_time": "06:50",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "06:50",
                             "end_time": "07:00",
-                            "activity": "Traveling"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "07:00",
                             "end_time": "07:10",
-                            "activity": "Family care"
+                            "activity": "Couldn't remember"
                         },
                         {
                             "starting_time": "07:10",
                             "end_time": "07:20",
-                            "activity": "Sleeping"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "07:20",
@@ -3739,27 +3739,27 @@
                         {
                             "starting_time": "07:30",
                             "end_time": "07:40",
-                            "activity": "Family care"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "07:40",
                             "end_time": "07:50",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "07:50",
                             "end_time": "08:00",
-                            "activity": "Socializing"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "08:00",
                             "end_time": "08:10",
-                            "activity": "Eating and drinking"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "08:10",
                             "end_time": "08:20",
-                            "activity": "Shopping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "08:20",
@@ -3769,57 +3769,57 @@
                         {
                             "starting_time": "08:30",
                             "end_time": "08:40",
-                            "activity": "Eating and drinking"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "08:40",
                             "end_time": "08:50",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "08:50",
                             "end_time": "09:00",
-                            "activity": "Sleeping"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "09:00",
                             "end_time": "09:10",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "09:10",
                             "end_time": "09:20",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "09:20",
                             "end_time": "09:30",
-                            "activity": "Household activities"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "09:30",
                             "end_time": "09:40",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "09:40",
                             "end_time": "09:50",
-                            "activity": "Job search"
+                            "activity": "Volunteering"
                         },
                         {
                             "starting_time": "09:50",
                             "end_time": "10:00",
-                            "activity": "Household activities"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "10:00",
                             "end_time": "10:10",
-                            "activity": "Sleeping"
+                            "activity": "Religious activities"
                         },
                         {
                             "starting_time": "10:10",
                             "end_time": "10:20",
-                            "activity": "Sleeping"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "10:20",
@@ -3829,17 +3829,17 @@
                         {
                             "starting_time": "10:30",
                             "end_time": "10:40",
-                            "activity": "Relaxing and thinking"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "10:40",
                             "end_time": "10:50",
-                            "activity": "Traveling"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "10:50",
                             "end_time": "11:00",
-                            "activity": "Sports"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "11:00",
@@ -3849,92 +3849,92 @@
                         {
                             "starting_time": "11:10",
                             "end_time": "11:20",
-                            "activity": "Work"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "11:20",
                             "end_time": "11:30",
-                            "activity": "Shopping"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "11:30",
                             "end_time": "11:40",
-                            "activity": "Assorted services"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "11:40",
                             "end_time": "11:50",
-                            "activity": "Personal Care"
+                            "activity": "Assorted services"
                         },
                         {
                             "starting_time": "11:50",
                             "end_time": "12:00",
-                            "activity": "Phone calls"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "12:00",
                             "end_time": "12:10",
-                            "activity": "Work"
+                            "activity": "Education"
                         },
                         {
                             "starting_time": "12:10",
                             "end_time": "12:20",
-                            "activity": "Traveling"
+                            "activity": "Job search"
                         },
                         {
                             "starting_time": "12:20",
                             "end_time": "12:30",
-                            "activity": "Traveling"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "12:30",
                             "end_time": "12:40",
-                            "activity": "Sports"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "12:40",
                             "end_time": "12:50",
-                            "activity": "Work"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "12:50",
                             "end_time": "13:00",
-                            "activity": "Nonfamily care"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "13:00",
                             "end_time": "13:10",
-                            "activity": "Work"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "13:10",
                             "end_time": "13:20",
-                            "activity": "TV and movies"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "13:20",
                             "end_time": "13:30",
-                            "activity": "Shopping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "13:30",
                             "end_time": "13:40",
-                            "activity": "Eating and drinking"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "13:40",
                             "end_time": "13:50",
-                            "activity": "Eating and drinking"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "13:50",
                             "end_time": "14:00",
-                            "activity": "Traveling"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "14:00",
                             "end_time": "14:10",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "14:10",
@@ -3944,62 +3944,62 @@
                         {
                             "starting_time": "14:20",
                             "end_time": "14:30",
-                            "activity": "Traveling"
+                            "activity": "Relaxing and thinking"
                         },
                         {
                             "starting_time": "14:30",
                             "end_time": "14:40",
-                            "activity": "Work"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "14:40",
                             "end_time": "14:50",
-                            "activity": "Personal Care"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "14:50",
                             "end_time": "15:00",
-                            "activity": "Socializing"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "15:00",
                             "end_time": "15:10",
-                            "activity": "Sleeping"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "15:10",
                             "end_time": "15:20",
-                            "activity": "TV and movies"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "15:20",
                             "end_time": "15:30",
-                            "activity": "Household activities"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "15:30",
                             "end_time": "15:40",
-                            "activity": "Sports"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "15:40",
                             "end_time": "15:50",
-                            "activity": "Work"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "15:50",
                             "end_time": "16:00",
-                            "activity": "Other leisure"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "16:00",
                             "end_time": "16:10",
-                            "activity": "Socializing"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "16:10",
                             "end_time": "16:20",
-                            "activity": "TV and movies"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "16:20",
@@ -4009,37 +4009,37 @@
                         {
                             "starting_time": "16:30",
                             "end_time": "16:40",
-                            "activity": "Traveling"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "16:40",
                             "end_time": "16:50",
-                            "activity": "Phone calls"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "16:50",
                             "end_time": "17:00",
-                            "activity": "TV and movies"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "17:00",
                             "end_time": "17:10",
-                            "activity": "Personal Care"
+                            "activity": "Traveling"
                         },
                         {
                             "starting_time": "17:10",
                             "end_time": "17:20",
-                            "activity": "Relaxing and thinking"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "17:20",
                             "end_time": "17:30",
-                            "activity": "TV and movies"
+                            "activity": "Sports"
                         },
                         {
                             "starting_time": "17:30",
                             "end_time": "17:40",
-                            "activity": "Eating and drinking"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "17:40",
@@ -4049,12 +4049,12 @@
                         {
                             "starting_time": "17:50",
                             "end_time": "18:00",
-                            "activity": "Eating and drinking"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "18:00",
                             "end_time": "18:10",
-                            "activity": "Household activities"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "18:10",
@@ -4064,47 +4064,47 @@
                         {
                             "starting_time": "18:20",
                             "end_time": "18:30",
-                            "activity": "Household activities"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "18:30",
                             "end_time": "18:40",
-                            "activity": "Work"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "18:40",
                             "end_time": "18:50",
-                            "activity": "Traveling"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "18:50",
                             "end_time": "19:00",
-                            "activity": "Education"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "19:00",
                             "end_time": "19:10",
-                            "activity": "Eating and drinking"
+                            "activity": "Other leisure"
                         },
                         {
                             "starting_time": "19:10",
                             "end_time": "19:20",
-                            "activity": "Personal Care"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "19:20",
                             "end_time": "19:30",
-                            "activity": "TV and movies"
+                            "activity": "Eating and drinking"
                         },
                         {
                             "starting_time": "19:30",
                             "end_time": "19:40",
-                            "activity": "Nonfamily care"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "19:40",
                             "end_time": "19:50",
-                            "activity": "Nonfamily care"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "19:50",
@@ -4114,62 +4114,62 @@
                         {
                             "starting_time": "20:00",
                             "end_time": "20:10",
-                            "activity": "Work"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "20:10",
                             "end_time": "20:20",
-                            "activity": "Nonfamily care"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "20:20",
                             "end_time": "20:30",
-                            "activity": "Work"
+                            "activity": "Family care"
                         },
                         {
                             "starting_time": "20:30",
                             "end_time": "20:40",
-                            "activity": "Other leisure"
+                            "activity": "Household activities"
                         },
                         {
                             "starting_time": "20:40",
                             "end_time": "20:50",
-                            "activity": "Relaxing and thinking"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "20:50",
                             "end_time": "21:00",
-                            "activity": "Personal Care"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "21:00",
                             "end_time": "21:10",
-                            "activity": "Phone calls"
+                            "activity": "Socializing"
                         },
                         {
                             "starting_time": "21:10",
                             "end_time": "21:20",
-                            "activity": "TV and movies"
+                            "activity": "Personal Care"
                         },
                         {
                             "starting_time": "21:20",
                             "end_time": "21:30",
-                            "activity": "TV and movies"
+                            "activity": "Shopping"
                         },
                         {
                             "starting_time": "21:30",
                             "end_time": "21:40",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "21:40",
                             "end_time": "21:50",
-                            "activity": "Personal Care"
+                            "activity": "Sports"
                         },
                         {
                             "starting_time": "21:50",
                             "end_time": "22:00",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "22:00",
@@ -4179,22 +4179,22 @@
                         {
                             "starting_time": "22:10",
                             "end_time": "22:20",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "22:20",
                             "end_time": "22:30",
-                            "activity": "Sleeping"
+                            "activity": "Work"
                         },
                         {
                             "starting_time": "22:30",
                             "end_time": "22:40",
-                            "activity": "Couldn't remember"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "22:40",
                             "end_time": "22:50",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "22:50",
@@ -4209,7 +4209,7 @@
                         {
                             "starting_time": "23:10",
                             "end_time": "23:20",
-                            "activity": "Sleeping"
+                            "activity": "TV and movies"
                         },
                         {
                             "starting_time": "23:20",
@@ -4229,7 +4229,7 @@
                         {
                             "starting_time": "23:50",
                             "end_time": "00:00",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "00:00",
@@ -4244,7 +4244,7 @@
                         {
                             "starting_time": "00:20",
                             "end_time": "00:30",
-                            "activity": "Traveling"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "00:30",
@@ -4254,7 +4254,7 @@
                         {
                             "starting_time": "00:40",
                             "end_time": "00:50",
-                            "activity": "TV and movies"
+                            "activity": "Sleeping"
                         },
                         {
                             "starting_time": "00:50",
@@ -4355,5 +4355,30 @@
                 }
             ]
         }
+    ],
+    "activities": [
+        "Personal Care",
+        "Sleeping",
+        "Household activities",
+        "Family care",
+        "Nonfamily care",
+        "Work",
+        "Job search",
+        "Education",
+        "Shopping",
+        "Assorted services",
+        "Eating and drinking",
+        "Other leisure",
+        "Socializing",
+        "Relaxing and thinking",
+        "TV and movies",
+        "Computer use",
+        "Sports",
+        "Religious activities",
+        "Volunteering",
+        "Phone calls",
+        "Traveling",
+        "Couldn't remember",
+        "Protesting"
     ]
 }
