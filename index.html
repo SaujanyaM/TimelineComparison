@@ -2,13 +2,15 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="scatterstylesheet.css">
-        <script type= "text/javascript" src="https://d3js.org/d3.v5.min.js"></script>  
+        <link rel="stylesheet" type="text/css" href="timeline.css">
+        <script type= "text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="//unpkg.com/timelines-chart@2"></script>
     </head>
     <body>
         <h1 style = "text-align:center; color:steelblue"><bold>Schedule Comparison</bold></h1>
         <!-- Your D3.js code for making a timeline-->
-        <script type="text/javascript" src="scatterplot.js"></script>
+        <div id="myPlot"></div>
+        <script type="text/javascript" src="timeline.js"></script>
         <!-- Button -->
         <div style="text-align: left">
             <input type="checkbox" class="checkbox" value="Johnny" checked><label>Johnny</label><br>
