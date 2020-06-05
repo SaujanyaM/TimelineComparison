@@ -39,7 +39,7 @@ d3.json("data_generator/schedule.json").then(_data =>{
             var day_schedule = d.schedule;
             day_schedule.forEach(function f(s){
                 //console.log(s.starting_time);
-                var date = new Date(d.day);
+                var day = new Date(d.day);
                 var a = [new Date(day.getTime() + millisecs(s.starting_time)), new Date(day.getTime()+millisecs(s.end_time))];//converts to milliseconds I think
                 var times = {"timeRange":a, "val": s.activity};
                 array.push(times);
