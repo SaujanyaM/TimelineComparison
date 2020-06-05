@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="scatterstylesheet.css">
-        <script type= "text/javascript" src="https://d3js.org/d3.v5.min.js"></script>  
-    </head>
-    <body>
-        <h1 style = "text-align:center; color:steelblue"><bold>Schedule Comparison</bold></h1>
-        <!-- Your D3.js code for making a timeline-->
-        <script type="text/javascript" src="scatterplot.js"></script>
-        <!-- Button -->
-        <div style="text-align: left">
-            <input type="checkbox" class="checkbox" value="Johnny" checked><label>Johnny</label><br>
-            <input type="checkbox" class="checkbox" value="Tom" checked><label>Tom</label><br>
-            <input type="checkbox" class="checkbox" value="Bert" checked><label>Bert</label><br>
-            <input type="checkbox" class="checkbox" value="Select All" checked><label>Select All</label><br>
-            <input type="checkbox" class="checkbox" value="None" checked><label>None</label>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="timeline.css">
+    <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+    <h1 style="text-align:center; color:steelblue">
+        <bold>Schedule Comparison</bold>
+    </h1>
+    <!-- Your D3.js code for making a timeline-->
+    <script type="text/javascript" src="timeline.js"></script>
+    <!-- Button -->
+
+    <div class="container">
+        <svg width="960" height="500"></svg>
+        <div class="options">
+            <div class="checkbox">
+                <ul class="person-list"> </ul>
+            </div>
+
         </div>
-        <!-- Submission Info -->
-        <h4>Created by:</h4>
-        <h4>Saujanya Mulukutla, Jonne Kaunisto</h4>
+    </div>
+    <hr>
+    <!-- Submission Info -->
+    <h4>Created by:</h4>
+    <h4>Saujanya Mulukutla, Jonne Kaunisto</h4>
 
-        <h4>Description: this is a Schedule of Johnny, Tom, Bert. Checking on the boxes will gnerate a stacked area chart.</h4>
-        <!-- Create a list using <ul> and <li> tag -->   
-        <h4>Files:</h4>
-        <ul>
-          <li>index.html</li>
-          <li>timeline.js</li>
-          <li>timeline.css</li>
-          <li>output.json</li>
-          <li>schedule.json</li>
-        </ul>  
+    <h4>Description: this is a Schedule of Johnny, Tom, Bert. Checking on the boxes will gnerate a stacked area chart.</h4>
+    <!-- Create a list using <ul> and <li> tag -->
+    <h4>Files:</h4>
+    <ul>
+        <li>index.html</li>
+        <li>timeline.js</li>
+        <li>timeline.css</li>
+        <li>output.json</li>
+        <li>schedule.json</li>
+    </ul>
 
-        <h4> Sources: </h4>
-        <ul>
-            <li>https://github.com/vasturiano/timelines-chart</li>
-            <li>https://archive.nytimes.com/www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html?</li>
-        </ul>
-    </body>
+    <h4> Sources: </h4>
+    <ul>
+        <li><a href="https://github.com/vasturiano/timelines-chart">https://github.com/vasturiano/timelines-chart</a></li>
+        <li><a href="https://archive.nytimes.com/www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html?">https://archive.nytimes.com/www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html?</a></li>
+    </ul>
+</body>
+
 </html>
