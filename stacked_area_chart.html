@@ -18,8 +18,8 @@
             bottom: 50,
             left: 50
         },
-        width = 660 - margin.left - margin.right,
-        height = 400 - margin.top - margin.bottom;
+        width = 900 - margin.left - margin.right,
+        height = 700 - margin.top - margin.bottom;
 
     // append the svg object to the body of the page
     var svg = d3.select("#my_dataviz")
@@ -32,16 +32,44 @@
 
     // Parse the Data
     d3.json("schedule.json").then(function(data) {
-        console.log(data)
+        console.log(data.people[0])
+        personID = 0
+
+        person = data.people[0]
+
+        daily_schedule = person.daily_schedule
+
+        convert_time_to_num = {}
+
+        activity_percetiles = person.daily_schedule[0].schedule.map(function(d) {
+            init_struct = {
+                "time": d.starting_time
+            }
+            data.activities.map(function(e) {
+                init_struct[e] = 0
+            })
+            return init_struct
+        })
+        console.log(activity_percetiles)
+
+
+        person.daily_schedule.map(function(d) {
+            //console.log(d)
+
+            d.schedule.map(function(e, i) {
+                convert_time_to_num[e.starting_time] = i
+                activity_percetiles[i][e.activity]++
+            })
+        })
+        console.log(activity_percetiles)
+        console.log(convert_time_to_num)
 
         //////////
         // GENERAL //
         //////////
 
         // List of groups = header of the csv files
-        var keys = data.people.map(function(d) {
-            return d.name
-        })
+        var keys = data.activities
 
         console.log(keys)
 
@@ -53,7 +81,8 @@
         //stack the data?
         var stackedData = d3.stack()
             .keys(keys)
-            (data.people)
+            (activity_percetiles)
+        console.log(stackedData)
 
 
 
@@ -63,10 +92,12 @@
 
         // Add X axis
         var x = d3.scaleLinear()
-            .domain(d3.extent(data, function(d) {
-                return d.year;
+            .domain(d3.extent(person.daily_schedule[0].schedule, function(d) {
+                return convert_time_to_num[d.starting_time];
             }))
             .range([0, width]);
+        console.log(x(convert_time_to_num["02:00"]))
+
         var xAxis = svg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x).ticks(5))
@@ -88,7 +119,7 @@
 
         // Add Y axis
         var y = d3.scaleLinear()
-            .domain([0, 200000])
+            .domain([0, 2])
             .range([height, 0]);
         svg.append("g")
             .call(d3.axisLeft(y).ticks(5))
@@ -123,7 +154,7 @@
         // Area generator
         var area = d3.area()
             .x(function(d) {
-                return x(d.data.year);
+                return x(convert_time_to_num[d.data.time]);
             })
             .y0(function(d) {
                 return y(d[0]);
@@ -214,7 +245,7 @@
             .data(keys)
             .enter()
             .append("rect")
-            .attr("x", 400)
+            .attr("x", 630)
             .attr("y", function(d, i) {
                 return 10 + i * (size + 5)
             }) // 100 is where the first dot appears. 25 is the distance between dots
@@ -231,7 +262,7 @@
             .data(keys)
             .enter()
             .append("text")
-            .attr("x", 400 + size * 1.2)
+            .attr("x", 630 + size * 1.2)
             .attr("y", function(d, i) {
                 return 10 + i * (size + 5) + (size / 2)
             }) // 100 is where the first dot appears. 25 is the distance between dots
