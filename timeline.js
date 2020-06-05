@@ -58,13 +58,13 @@ var width = 900;
 // convert time string to milliseconds
 function millisecs(time) {
     var parseTime = d3.timeParse("%H:%M");
-    var hours = d3.timeFormat("%H");
-    var minutes = d3.timeFormat("%M");
+    //var hours = d3.timeFormat("%H");
+    //var minutes = d3.timeFormat("%M");
 
     var Time = parseTime(time);
 
-    return (hours(Time) * 60 * 60 * 1000 + minutes(Time) * 60 * 1000);
-
+    //return (hours(Time) * 60 * 60 * 1000 + minutes(Time) * 60 * 1000);
+    return Time;
 }
 d3.json("schedule.json").then(function(data) {
     console.log(data)
@@ -75,33 +75,41 @@ d3.json("schedule.json").then(function(data) {
         var data_label;
         var datas = [];
         var group = {};
-        var array = [];
         var dailyschedule = p.daily_schedule;
         //console.log(dailyschedule.day);
         dailyschedule.forEach(function f(d) { //goes through daily schedule per person
+            var array = [];
             //console.log(d.schedule);
-            var date = new Date(d.day)
+            //var date = new Date(d.day)
+            //console.log(date)
             var day_schedule = d.schedule;
             day_schedule.forEach(function f(s) {
                 //console.log(s.starting_time);
-                var day = new Date(d.day);
-                var a = [new Date(day.getTime() + millisecs(s.starting_time)), new Date(day.getTime() + millisecs(s.end_time))]; //converts to milliseconds I think
+                //var day = new Date(d.day);
+                //console.log(day);
+                //var a = [new Date(day.getTime() + millisecs(s.starting_time)), new Date(day.getTime() + millisecs(s.end_time))]; //converts to milliseconds I think
+                var a = [millisecs(s.starting_time), millisecs(s.end_time)]; //converts to milliseconds I think
                 var times = { "timeRange": a, "val": s.activity };
                 array.push(times);
             })
-            console.log(day_schedule)
-
+            //console.log(day_schedule)
+            console.log(d.day)
+            console.log(array)
             data_label = { "label": d.day, "data": array }; //gets the label
             datas.push(data_label);
         })
+        //console.log(p.name);
+        //console.log(datas);
         group = { "group": p.name, "data": datas };
         dataset.push(group);
     })
-    TimelinesChart()
+    console.log(dataset)
+    myChart = TimelinesChart()(document.getElementById('myPlot'))
         .data(dataset)
         .zQualitative(true)
         .maxHeight(1000)
         .maxLineHeight(70)
-        (document.getElementById('myPlot'));
+        .timeFormat('%H:%M');
+    //console.log(myChart.getTotalNLines());
 
 })
