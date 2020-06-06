@@ -18,7 +18,7 @@ var svg = d3.select("#my_dataviz")
         "translate(" + margin.left + "," + margin.top + ")");
 
 // Parse the Data
-d3.json("schedule.json").then(function(data) {
+d3.json("scheduleExpanded.json").then(function(data) {
     console.log(data.people[0])
     personID = 0
 
@@ -38,14 +38,18 @@ d3.json("schedule.json").then(function(data) {
         return init_struct
     })
     console.log(activity_percetiles)
-
     num_days = 0
+
+    person.daily_schedule.map(function() {
+        num_days++
+    })
+
     person.daily_schedule.map(function(d) {
         //console.log(d)
-        num_days++
+
         d.schedule.map(function(e, i) {
             convert_time_to_num[e.starting_time] = i
-            activity_percetiles[i][e.activity]++
+            activity_percetiles[i][e.activity] += 1 / num_days
         })
     })
     console.log(num_days)
@@ -107,7 +111,7 @@ d3.json("schedule.json").then(function(data) {
 
     // Add Y axis
     var y = d3.scaleLinear()
-        .domain([0, num_days])
+        .domain([0, 1])
         .range([height, 0]);
     svg.append("g")
         .call(d3.axisLeft(y).ticks(5))

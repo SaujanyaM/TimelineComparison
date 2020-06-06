@@ -63,7 +63,7 @@ def generate_schedule(minutely_data):
     for name in names:
         person = {"name": name}
         person_daily_schedule = []
-        for day in range(5,5+2):
+        for day in range(5,5+10):
             current_time = datetime.datetime(2020, 3, day, 4)
             daily_schedule = {"day": current_time.strftime("%m/%d/%Y")}
             day_schedule = []
