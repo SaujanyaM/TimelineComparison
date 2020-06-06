@@ -1,3 +1,5 @@
+// source https://www.d3-graph-gallery.com/graph/stackedarea_template.html
+
 // set the dimensions and margins of the graph
 var margin = {
         top: 60,
@@ -162,7 +164,7 @@ d3.json("scheduleExpanded.json").then(function(data) {
         .enter()
         .append("path")
         .attr("class", function(d) {
-            return "myArea " + d.key
+            return "myArea " + d.key.replace(/ /g, "").replace('\'', "")
         })
         .style("fill", function(d) {
             return color(d.key);
@@ -217,7 +219,7 @@ d3.json("scheduleExpanded.json").then(function(data) {
             // reduce opacity of all groups
         d3.selectAll(".myArea").style("opacity", .1)
             // expect the one that is hovered
-        d3.select("." + d).style("opacity", 1)
+        d3.select("." + d.replace(/ /g, "").replace('\'', "")).style("opacity", 1)
     }
 
     // And when it is not hovered anymore

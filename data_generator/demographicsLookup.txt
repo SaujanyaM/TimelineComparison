@@ -1,4 +1,4 @@
-demID:int	demSuperGroup:String	otherTitle:String	demTitle:String	sentHelp:String	demQuestion:String	pctPop:Number	demText:String
+demID	demSuperGroup	otherTitle	demTitle	sentHelp	demQuestion	pctPop	demText
 0	Everyone	Everyone	Everyone	all Americans	How <b>average Americans</b> spend their day	100	Sleeping, eating, working and watching television take up about two-thirds of the average day.
 1	Everyone	Men	Men	men	How <b>men</b> spend their day	48	Working peaks around 11 a.m., when 40 percent of men are at work. (On weekdays, 70 percent of men with a job are working at that time.)
 2	Everyone	Women	Women	women	How <b>women</b> spend their day	52	At any point during the average day, more than 80 percent of women are doing something other than household chores or caring for children.  Together, chores and child care peak around 6 p.m.
