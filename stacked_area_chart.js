@@ -317,6 +317,9 @@ function createSelection(container, svg_container, names) {
             svg_container.select("svg").remove()
 
             createStackedChart(svg_container, names.indexOf(name))
-        });
+        })
+        .filter(function(name) { return names.indexOf(name) == 0 })
+        .style("background-color", "green");
+
     selection.append("div").attr("id", "myDropdown").attr("class", "dropdown-content").append()
 }

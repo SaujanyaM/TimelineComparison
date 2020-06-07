@@ -1,3 +1,4 @@
+/*
 d3.json("schedule.json").then(function(data) {
     console.log(data.people)
     var checkboxes = d3.select(".person-list").selectAll(".person-checkbox")
@@ -43,6 +44,7 @@ function checkChanged() {
     if (!checked) {} else {}
 
 }
+*/
 /*eslint-env es6*/
 /*eslint-env browser*/
 /*eslint no-console: 0*/
@@ -78,28 +80,28 @@ d3.json("schedule.json").then(function(data) {
         var dailyschedule = p.daily_schedule;
         //console.log(dailyschedule.day);
         dailyschedule.forEach(function f(d) { //goes through daily schedule per person
-            var array = [];
-            //console.log(d.schedule);
-            //var date = new Date(d.day)
-            //console.log(date)
-            var day_schedule = d.schedule;
-            day_schedule.forEach(function f(s) {
-                //console.log(s.starting_time);
-                //var day = new Date(d.day);
-                //console.log(day);
-                //var a = [new Date(day.getTime() + millisecs(s.starting_time)), new Date(day.getTime() + millisecs(s.end_time))]; //converts to milliseconds I think
-                var a = [millisecs(s.starting_time), millisecs(s.end_time)]; //converts to milliseconds I think
-                var times = { "timeRange": a, "val": s.activity };
-                array.push(times);
+                var array = [];
+                //console.log(d.schedule);
+                //var date = new Date(d.day)
+                //console.log(date)
+                var day_schedule = d.schedule;
+                day_schedule.forEach(function f(s) {
+                        //console.log(s.starting_time);
+                        //var day = new Date(d.day);
+                        //console.log(day);
+                        //var a = [new Date(day.getTime() + millisecs(s.starting_time)), new Date(day.getTime() + millisecs(s.end_time))]; //converts to milliseconds I think
+                        var a = [millisecs(s.starting_time), millisecs(s.end_time)]; //converts to milliseconds I think
+                        var times = { "timeRange": a, "val": s.activity };
+                        array.push(times);
+                    })
+                    //console.log(day_schedule)
+                console.log(d.day)
+                console.log(array)
+                data_label = { "label": d.day, "data": array }; //gets the label
+                datas.push(data_label);
             })
-            //console.log(day_schedule)
-            console.log(d.day)
-            console.log(array)
-            data_label = { "label": d.day, "data": array }; //gets the label
-            datas.push(data_label);
-        })
-        //console.log(p.name);
-        //console.log(datas);
+            //console.log(p.name);
+            //console.log(datas);
         group = { "group": p.name, "data": datas };
         dataset.push(group);
     })
