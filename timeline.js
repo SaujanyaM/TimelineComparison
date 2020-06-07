@@ -60,14 +60,16 @@ var width = 900;
 // convert time string to milliseconds
 function millisecs(time) {
     var parseTime = d3.timeParse("%H:%M");
-    //var hours = d3.timeFormat("%H");
-    //var minutes = d3.timeFormat("%M");
+    var hours = d3.timeFormat("%H");
+    var minutes = d3.timeFormat("%M");
 
     var Time = parseTime(time);
     //console.log(Time)
-    //return (hours(Time) * 60 * 60 * 1000 + minutes(Time) * 60 * 1000);
-    return Time;
+    return (hours(Time) * 60 * 60 * 1000 + minutes(Time) * 60 * 1000);
+    //return Time;
 }
+
+var dates = []
 d3.json("schedule.json").then(function(data) {
     console.log(data)
     var people = data.people;
@@ -77,45 +79,52 @@ d3.json("schedule.json").then(function(data) {
         var data_label;
         var datas = [];
         var group = {};
+        var array = [];
         var dailyschedule = p.daily_schedule;
+        
         //console.log(dailyschedule.day);
         dailyschedule.forEach(function f(d) { //goes through daily schedule per person
-                var array = [];
                 //console.log(d.schedule);
                 //var date = new Date(d.day)
                 //console.log(date)
                 var day_schedule = d.schedule;
                 day_schedule.forEach(function f(s) {
                         //console.log(s.starting_time);
-                        //var day = new Date(d.day);
+                        var day = new Date(d.day);
                         //console.log(day);
-                        //var a = [new Date(day.getTime() + millisecs(s.starting_time)), new Date(day.getTime() + millisecs(s.end_time))]; //converts to milliseconds I think
-                        var a = [millisecs(s.starting_time), millisecs(s.end_time)]; //converts to milliseconds I think
+                        var a = [new Date(day.getTime() + millisecs(s.starting_time)), new Date(day.getTime() + millisecs(s.end_time))]; //converts to milliseconds I think
+                        //var a = [millisecs(s.starting_time), millisecs(s.end_time)]; //converts to milliseconds I think
                         var times = { "timeRange": a, "val": s.activity };
                         array.push(times);
                     })
                     //console.log(day_schedule)
-                console.log(d.day)
-                console.log(array)
-                data_label = { "label": d.day, "data": array }; //gets the label
-                datas.push(data_label);
+                //console.log(new Date(d.day))
+                dates.push(new Date(d.day))
+                //console.log(array)
             })
+        data_label = { "label": "", "data": array }; //gets the label
+        datas.push(data_label);
             //console.log(p.name);
             //console.log(datas);
         group = { "group": p.name, "data": datas };
         dataset.push(group);
     })
-    console.log(dataset)
+    //console.log(dates[1])
+    //console.log(dataset)
+    //console.log(d3.min(dates));
+    //minZoom = d3.min(dates[0]);
     myChart = TimelinesChart()(document.getElementById('myPlot'))
         .data(dataset)
         .zQualitative(true)
         .maxHeight(1000)
         .maxLineHeight(70)
-        .topMargin(60)
+        //.onZoom([dates[0], dates[1]], ['', ''])
+        .zoomX([dates[0], dates[1]])
+        .topMargin(60);
         //.width(2000)
         //.bottomMargin(30)
-        .timeFormat('%H:%M')
-        .xTickFormat(d3.timeFormat("%I:%M %p"));
+        //.timeFormat('%H:%M')
+        //.xTickFormat(d3.timeFormat("%I:%M %p"));
     //console.log(myChart.getTotalNLines());
 
 })

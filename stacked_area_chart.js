@@ -1,3 +1,7 @@
+/*eslint-env es6*/
+/*eslint-env browser*/
+/*eslint no-console: 0*/
+/*global d3 */
 // source https://www.d3-graph-gallery.com/graph/stackedarea_template.html
 
 // set the dimensions and margins of the graph
@@ -134,8 +138,9 @@ function createStackedChart(svg_container, index) {
         // Add Y axis label:
         svg.append("text")
             .attr("text-anchor", "end")
-            .attr("x", 0)
-            .attr("y", -20)
+            .attr("x", -400)
+            .attr("y", -40)
+            .attr("transform", "rotate(-90)")
             .text("Percent time spent in various activities")
             .attr("text-anchor", "start")
 
