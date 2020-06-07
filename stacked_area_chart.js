@@ -136,7 +136,7 @@ function createStackedChart(svg_container, index) {
             .attr("text-anchor", "end")
             .attr("x", 0)
             .attr("y", -20)
-            .text("frequency of this activity")
+            .text("percentage of days spend doing a specific activity")
             .attr("text-anchor", "start")
 
         // Add Y axis
