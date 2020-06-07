@@ -109,7 +109,7 @@ d3.json("schedule.json").then(function(data) {
         group = { "group": p.name, "data": datas };
         dataset.push(group);
     })
-    //console.log(dates[1])
+    //console.log(new Date(dates[0].getTime() + 86340000));
     //console.log(dataset)
     //console.log(d3.min(dates));
     //minZoom = d3.min(dates[0]);
@@ -119,7 +119,7 @@ d3.json("schedule.json").then(function(data) {
         .maxHeight(1000)
         .maxLineHeight(70)
         //.onZoom([dates[0], dates[1]], ['', ''])
-        .zoomX([dates[0], dates[1]])
+        .zoomX([dates[0], new Date(dates[0].getTime() + 86340000)])
         .topMargin(60);
         //.width(2000)
         //.bottomMargin(30)
