@@ -93,14 +93,16 @@ def pick_random_activity(probabilities):
 def generate_schedule(minutely_data):
     schedule = {}
     people = []
-    humans = [{"name": "Johnny", "dem": "Unemployed"}, {"name": "Tom", "dem": "Employed"}, {"name": "Bert", "dem": "Two+ children"}]
+    humans = [{"name": "Johnny", "dem": "Unemployed"}, {"name": "Tom", "dem": "Employed"}, {"name": "Bert", "dem": "Two+ children"},
+              {"name": "Alice", "dem": "Women"}, {"name": "Dick", "dem": "Age 65 or over"}, {"name": "Tyrone", "dem": "Black"}]
     
     for human in humans:
-        person = {"name": human["name"]}
+        person = {"name": human["name"], "dem": human["dem"]}
         person_daily_schedule = []
         personal_minutely_data = minutely_data[human["dem"]]
-        for day in range(5,5+2):
-            current_time = datetime.datetime(2020, 3, day, 4)
+        starting_date = datetime.datetime(2020, 3, 1, 4)
+        for day in range(5,5+15):
+            current_time = starting_date + datetime.timedelta(days=day)
             daily_schedule = {"day": current_time.strftime("%m/%d/%Y")}
             day_schedule = []
             #print("day---------------------------")

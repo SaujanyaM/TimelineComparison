@@ -25,9 +25,9 @@ var container = dataviz.append("div")
 var selection = container.append("div")
 var svg_container = container.append("div")
 
-d3.json("scheduleExpanded.json").then(function(data) {
+d3.json("schedule.json").then(function(data) {
     names = data.people.map(function(d) {
-        return d.name
+        return { "name": d.name, "dem": d.dem }
     })
 
     createSelection(selection, svg_container, names)
@@ -45,12 +45,11 @@ function createStackedChart(svg_container, index) {
             "translate(" + margin.left + "," + margin.top + ")");
 
     // Parse the Data
-    d3.json("scheduleExpanded.json").then(function(data) {
+    d3.json("schedule.json").then(function(data) {
+        console.log(data)
         names = data.people.map(function(d) {
             return d.name
         })
-
-
 
         console.log(names)
         console.log(data.people[index])
@@ -309,21 +308,25 @@ function createStackedChart(svg_container, index) {
     })
 }
 
-function createSelection(container, svg_container, names) {
+function createSelection(container, svg_container, humans) {
+    container.attr("class", "options-container")
     var selection = container.selectAll("div").append("div").attr("class", "dropdown")
-    selection.data(names).enter()
+    var names = humans.map(function(human) { return human.name })
+
+    selection.data(humans).enter()
         .append("button")
         .attr("class", "dropbtn")
-        .attr("id", function(name) { return name + "-button" })
-        .text(function(name) { return name })
-        .on("click", function(name) {
-            d3.select("#" + name + "-button").style("background-color", "green")
-            container.selectAll("button").filter(function(d) { return d != name }).style("background-color", "#3498DB")
+        .attr("id", function(human) { return human.name + "-button" })
+        .text(function(human) { return human.name })
+        .attr("title", function(human) { return human.dem })
+        .on("click", function(human) {
+            d3.select("#" + human.name + "-button").style("background-color", "green")
+            container.selectAll("button").filter(function(d) { return d.name != human.name }).style("background-color", "#3498DB")
             svg_container.select("svg").remove()
 
-            createStackedChart(svg_container, names.indexOf(name))
+            createStackedChart(svg_container, names.indexOf(human.name))
         })
-        .filter(function(name) { return names.indexOf(name) == 0 })
+        .filter(function(human) { return names.indexOf(human.name) == 0 })
         .style("background-color", "green");
 
     selection.append("div").attr("id", "myDropdown").attr("class", "dropdown-content").append()

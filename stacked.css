@@ -5,7 +5,8 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
-    width: 75px;
+    width: 90px;
+    margin-left: 10px
 }
 
 .dropbtn:hover,
@@ -41,4 +42,9 @@
 
 .show {
     display: block;
+}
+
+.options-container {
+    margin-top: 200px;
+    margin-right: 10px;
 }
