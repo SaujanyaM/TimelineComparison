@@ -1,8 +1,5 @@
-/*eslint-env es6*/
-/*eslint-env browser*/
-/*eslint no-console: 0*/
-/*global d3 */
-// source https://www.d3-graph-gallery.com/graph/stackedarea_template.html
+//Sources
+//Stacked area chart example: https://www.d3-graph-gallery.com/graph/stackedarea_template.html
 
 // set the dimensions and margins of the graph
 var margin = {
